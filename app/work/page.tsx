@@ -10,7 +10,7 @@ export default function WorkPage() {
         <div className="grid gap-6 md:gap-8">
           <Card>
             <CardHeader>
-              <CardTitle>Jiva Ag</CardTitle>
+              <CardTitle>Jiva Ag 🌽</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-10">
@@ -132,9 +132,17 @@ export default function WorkPage() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>CoLearn</CardTitle>
+              <CardTitle>CoLearn 👨‍🎓</CardTitle>
             </CardHeader>
             <CardContent>
+              <p className="mb-8">
+                CoLearn is an Ed-Tech startup based out of Indonesia that’s on a
+                mission to bring Indonesia to the top 50% of Global PISA ranking
+                by being laser-focused on math & STEM first. As a member of
+                their android engineering team, I was responsible for
+                productizing new features right from the design pipeline to the
+                end engineering goal and maintaining the app.
+              </p>
               <p className="text-base text-muted-foreground mb-4 font-bold">
                 Senior Software Engineer • August 2021 - December 2021
               </p>
@@ -166,9 +174,18 @@ export default function WorkPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Wizr</CardTitle>
+              <CardTitle>Wizr 💰</CardTitle>
             </CardHeader>
             <CardContent>
+              <p className="mb-8">
+                Wizr Wealth is a financial services company that helps you
+                manage your personal finance. Wizr helps you find experts who
+                can help you invest and grow your money. As the only member of
+                their engineering team, I took charge of building two native
+                android applications from scratch and building a fully secure
+                and functional REST API.
+              </p>
+
               <p className="text-base text-muted-foreground mb-4 font-bold">
                 Software Engineer • September 2020 - August 2021
               </p>
@@ -198,6 +215,13 @@ export default function WorkPage() {
               <CardTitle>Triveous Technologies</CardTitle>
             </CardHeader>
             <CardContent>
+              <p className="mb-8">
+                Triveous Technologies is a PaaS startup that deals with multiple
+                products and services. As a part of their team, my primary focus
+                was to improve and maintain their performance monitoring SDK for
+                Android.
+              </p>
+
               <p className="text-base text-muted-foreground mb-4 font-bold">
                 Software Development Engineer Intern • Febuary 2020 - July 2020
               </p>
