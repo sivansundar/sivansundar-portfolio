@@ -50,17 +50,30 @@ export default function AboutPage() {
               improve the lives of smallhold farmers across the country.
             </p>
             <p className="mb-4">
-              During the day, I obsess with shipping fast. Perfection is
-              achieved through speed, not patience. "Ship - feedback - iterate"
-              and you'll be amazed to see where you are at. Over the years I
-              have built native mobile apps of various capacity, ranging from
-              fintech, ed-tech and agritech. I've also been building ecommerce
-              solutions on the side out of pure curiosity. Love tinkering with
-              any stack I get. RoR was one such in the recent times.
+              There is an inherent joy in building and creating things. That is
+              exactly what drives me. Built products, managed teams and
+              everything in between. A self-taught engineer who has been
+              tinkering with tech and beyond.
             </p>
+
+            <p className="mb-4">
+              I obsess with shipping fast. Perfection is achieved through speed,
+              not patience. "Ship - feedback - iterate" and you'll be amazed to
+              see where you are at. Over the years I have built native mobile
+              apps of various capacity, ranging from fintech, ed-tech and
+              agritech. I've also been building ecommerce solutions on the side
+              out of pure curiosity. Love tinkering with any stack I get. RoR
+              was one such in the recent times.
+            </p>
+
+            <p className="mb-4">
+              In a professional setting, I value honesty, the grit to lean and
+              the courage to say "I don't know". If you over communicate and discard biases, then you'd love working with me. 
+            </p>
+
             <p className="mb-8">
-              During the night, I write heavy riffs that you can headbang to. I
-              am also the frontman at the{" "}
+              I also write heavy riffs that you can headbang to. I am the
+              frontman at the{" "}
               <Link
                 href="https://linktr.ee/therofoband"
                 target="_blank"
@@ -70,6 +83,14 @@ export default function AboutPage() {
               </Link>{" "}
               - a heavy, hard rock/grunge rock band based out of Bengaluru,
               India.
+            </p>
+
+            <br></br>
+
+            <p className="mb-8">
+              On the days I dont obsess with these, I travel as much as I can.
+              Go on hikes, explore the local coffee and food scene, trying to
+              learn a thing or two about the people I meet.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
@@ -106,12 +127,11 @@ export default function AboutPage() {
               </div>
 
               <div className="group relative overflow-hidden rounded-lg border">
-              <Image
+                <Image
                   src="/music-2.png?height=600&width=800"
                   alt="Band pic"
                   width={800}
                   height={600}
-                  
                   className="object-cover w-full aspect-[4/3] transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -123,13 +143,11 @@ export default function AboutPage() {
               </div>
 
               <div className="group relative overflow-hidden rounded-lg border">
-               
-              <Image
+                <Image
                   src="/music-1.jpg?height=600&width=800"
                   alt="Band pic"
                   width={800}
                   height={600}
-                  
                   className="object-cover w-full aspect-[4/3] transition-transform group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-black/60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity">
