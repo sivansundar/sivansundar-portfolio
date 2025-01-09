@@ -55,13 +55,14 @@ export default function WorkPage() {
 
                   <li className="text-sm text-muted-foreground mb-4">
                     Headed the tech efforts on an Information Architecture
-                    re-write on the client side which aimed to simplify the app.
+                    re-write along with the design team which aimed to simplify
+                    the app.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
                     Built an in-app marketing tool for our retailers where they
-                    could run promos and offers on their products and share it
-                    across to different apps to spread the word.
+                    could run promotional campaigns and offers on their products
+                    and share them across to different apps to build traction.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
@@ -69,11 +70,11 @@ export default function WorkPage() {
                     unique requirement where the tool would take the exported
                     design tokens from Figma and generate Compose Theme files
                     that can be imported into your project. Helps designers and
-                    devs stay in sync.
+                    developers stay in sync.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Actively mentored engineers across the board and giving them
+                    Actively mentored engineers across the board by giving them
                     actionable insights and feedback to progress in their
                     career.
                   </li>
@@ -92,6 +93,17 @@ export default function WorkPage() {
                     using our app. This was scaled in three different regions
                     across Indonesia.
                   </li>
+
+                  <li className="text-sm text-muted-foreground mb-4">
+                    Reduced our app size from{" "}
+                    <strong>29.9 MB to 12.3 MB</strong> and the app's download
+                    size on new updates from <strong>25 MB to 7.8 MB</strong> by
+                    implementing code obfuscation, resource shrinking and code
+                    optimizations. This led to a <strong>58.8%</strong> in app
+                    size reduction and <strong>68.8%</strong> reduction in the
+                    update size.
+                  </li>
+
                   <li className="text-sm text-muted-foreground mb-4">
                     Built an Update Manager that would give us the control to
                     force update apps in specific regions. This was a remote
@@ -103,28 +115,13 @@ export default function WorkPage() {
 
                   <li className="text-sm text-muted-foreground mb-4">
                     Proficient with production support when called upon.
-                    Building out alternative login systems that had a higher
-                    deliverablity rate.
+                    Building an alternative login system that had a higher
+                    deliverablity rate when compared to Firebase.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Improved our crash-free rates from{" "}
+                    Improved our app's crash-free rates from{" "}
                     <strong>91% to 99.89%</strong>
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Built and shipped features on high priority that would
-                    resolve production issues
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Reduced our app size from{" "}
-                    <strong>29.9 MB to 12.3 MB</strong> and the app's download
-                    size on new updates from <strong>25 MB to 7.8 MB</strong> by
-                    implementing code obfuscation, resource shrinking and code
-                    optimizations. This led to a <strong>58.8%</strong> in app
-                    size reduction and <strong>68.8%</strong> reduction in the
-                    update size.
                   </li>
                 </div>
               </div>
