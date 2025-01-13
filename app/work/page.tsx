@@ -16,112 +16,138 @@ export default function WorkPage() {
               <div className="space-y-10">
                 <div>
                   <p className="text-base text-muted-foreground mb-4 font-bold">
-                    Senior Engineer • October 2022 - Current
+                    Senior Engineer • September 2023 - Current
                   </p>
                   <li className="text-sm text-muted-foreground mb-4">
-                    Contributed to tech decisions across the board optimizing
-                    for shortest deliverable and quick feedback to iterate.
+                    Drove critical technology decisions to optimize delivery
+                    timelines, enabling rapid feedback loops and iterative
+                    improvements across projects.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Working closely with tech leads and the leadership teams to
-                    run effective streams of work and maintain high team
-                    throughputs.
+                    Partnered with technical leads and leadership teams to
+                    streamline workflows, resulting in enhanced team
+                    productivity and throughput.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Built a Whatsapp bot on Rails which would allow users to
-                    sell crops, view prices of a particular feedmill and receive
-                    payments.
+                    Engaged with customer experience (CX) teams and design
+                    researchers to analyze user behavior, translating insights
+                    into high-impact product solutions. Interviewed retailers at
+                    remote parts of Indonesia to understand how their commerce
+                    funnels operates and how we can drive more value for them.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Setup a playbook and framework to migrate our suite of apps
-                    to Jetpack Compose. This included spikes, architecture
-                    decisions, design system utilities and regular iterations.
-                    Also trained the entire mobile development team and helped
-                    them adopt our architecture and be proficient with it.
+                    Developed a WhatsApp service on Rails that empowered users
+                    to sell crops, access feedmill pricing, and manage payments.
+                    This integration with Meta's WhatsApp Business Service and
+                    Landbot significantly improved the agricultural sales
+                    process for Jiva.
+                  </li>
+
+                  <li className="text-sm text-muted-foreground mb-4">
+                    Established a comprehensive playbook for migrating
+                    applications to Jetpack Compose, including architectural
+                    guidelines and design system utilities. Trained the mobile
+                    development team, enhancing their proficiency in the new
+                    architecture.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
                     Built an in-house design system that is used by apps across
-                    Jiva's ecosystem.
+                    Jiva's ecosystem, maintaining visual consistency and
+                    elevating user experience.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Migrating our collector and retailer apps to Jetpack
-                    Compose.
+                    Led the migration of collector and retailer apps to Jetpack
+                    Compose, resulting in a remarkable 70% increase in daily app
+                    usage and transaction volumes.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Headed the tech efforts on an Information Architecture
-                    re-write along with the design team which aimed to simplify
-                    the app.
+                    Collaborated with the design team on a complete rewrite of
+                    the app's information architecture, simplifying navigation
+                    and improving user comprehension.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Built an in-app marketing tool for our retailers where they
-                    could run promotional campaigns and offers on their products
-                    and share them across to different apps to build traction.
+                    Spearheaded the Android team, overseeing cross-functional
+                    challenges that had massive business impact. Conducted
+                    weekly guild meetings to create a brainstorming environment
+                    amongst Android engineers across pods which promoted
+                    collaboration and knowledge sharing.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Developed a Design Token generator for Compose. This was a
-                    unique requirement where the tool would take the exported
-                    design tokens from Figma and generate Compose Theme files
-                    that can be imported into your project. Helps designers and
-                    developers stay in sync.
+                    Created an in-app marketing tool that enabled retailers to
+                    launch promotional campaigns across various platforms,
+                    driving sales significantly during H1 2024.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Actively mentored engineers across the board by giving them
-                    actionable insights and feedback to progress in their
-                    career.
+                    Setup design component guidelines and preview modes within
+                    the app using Showkase. This allowed QAs and PMs to have a
+                    closer understanding of how design components functioned
+                    across various devices.
+                  </li>
+
+                  <li className="text-sm text-muted-foreground mb-4">
+                    Developed a unique Design Token generator for Compose that
+                    streamlined the integration of Figma design tokens into
+                    project themes, improving collaboration between design and
+                    development teams amidst design changes.
+                  </li>
+
+                  <li className="text-sm text-muted-foreground mb-4">
+                    Actively mentored engineers by providing actionable feedback
+                    and insights, fostering their professional growth within the
+                    organization.
                   </li>
                 </div>
 
                 <div>
                   <p className="text-base text-muted-foreground mb-4 font-bold">
-                    Android Engineer • April 2022 - March 2024
+                    Android Engineer • Apr 2022 - Aug 2023
                   </p>
                   <li className="text-sm text-muted-foreground mb-4">
-                    Migrated the entire codebase to Kotlin, away from Java and
-                    Dagger.
+                    Successfully migrated the entire codebase from Java to
+                    Kotlin, incorporating Coroutines for enhanced performance
+                    and scalability.
                   </li>
                   <li className="text-sm text-muted-foreground mb-4">
-                    Implemented a point based reward systems for collectors
-                    using our app. This was scaled in three different regions
-                    across Indonesia.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Reduced our app size from{" "}
-                    <strong>29.9 MB to 12.3 MB</strong> and the app's download
-                    size on new updates from <strong>25 MB to 7.8 MB</strong> by
-                    implementing code obfuscation, resource shrinking and code
-                    optimizations. This led to a <strong>58.8%</strong> in app
-                    size reduction and <strong>68.8%</strong> reduction in the
-                    update size.
+                    Designed and implemented a point-based reward system for
+                    collectors across three regions in Indonesia, driving
+                    engagement and retention.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Built an Update Manager that would give us the control to
-                    force update apps in specific regions. This was a remote
-                    solution and did not require a separate app release. Play
-                    store gives us country level control only where as with the
-                    Update Manager, you could control which region gets a forced
-                    update.
+                    Achieved a significant reduction in app size from 29.9 MB to
+                    12.3 MB (58.8%) through code obfuscation, resource
+                    shrinking, and optimization techniques. Reduced update sizes
+                    from 25 MB to 7.8 MB (68.8%).
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Proficient with production support when called upon.
-                    Building an alternative login system that had a higher
-                    deliverablity rate when compared to Firebase.
+                    Developed an Update Manager that enabled targeted forced
+                    updates in specific regions without requiring separate app
+                    releases, enhancing control over app deployment.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Improved our app's crash-free rates from{" "}
-                    <strong>91% to 99.89%</strong>
+                    Proficient with production support when called upon. Led a
+                    response team during critical production outages which was
+                    responsible for building an alternative login system that
+                    would unblock users from authenticating with our products.
+                    As a result, this improved authentication error rates and
+                    aided cost cutting by a huge margin.
+                  </li>
+
+                  <li className="text-sm text-muted-foreground mb-4">
+                    Elevated app crash-free rates from 91% to an impressive
+                    99.89%, significantly enhancing user experience and
+                    reliability.
                   </li>
                 </div>
               </div>
