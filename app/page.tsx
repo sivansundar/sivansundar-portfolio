@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <div className="group relative overflow-hidden rounded-lg border">
               <Image
-                src="https://play-lh.googleusercontent.com/-XrH2uYQlXwLVUuey7y88hN9-WDL6ZweL39C1yvQlt6nO1tPEB8rGYejXxbA3mdmw5YE"
+                src="https://www.leadsquared.com/wp-content/uploads/2023/04/colearn.png"
                 alt="Ecommerce Project"
                 width={512}
                 height={512}

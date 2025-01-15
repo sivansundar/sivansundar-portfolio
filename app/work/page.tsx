@@ -168,11 +168,9 @@ export default function WorkPage() {
                 CoLearn is an Ed-Tech startup based out of Indonesia that’s on a
                 mission to bring cohort-based high-quality online live classes
                 that are affordable to all Indonesian students in Grades 4-12.
-                CoLearn aims to bring Indonesia to the top 50% of Global PISA
-                ranking by being laser-focused on math & STEM first. As a member
-                of their android engineering team, I was responsible for
-                productizing new features right from the design pipeline to the
-                end engineering goal and maintaining the app.
+                As a member of their Android Engineering team, I was responsible
+                for productizing new features right from the design pipeline to
+                the end engineering goal and maintaining the app.
               </p>
               <p className="text-base text-muted-foreground mb-4 font-bold">
                 Senior Software Engineer • August 2021 - December 2021
