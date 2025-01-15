@@ -15,6 +15,12 @@ export default function WorkPage() {
             <CardContent>
               <div className="space-y-10">
                 <div>
+                  <p className="mb-8 text-sm italic text-muted-foreground">
+                    Jiva is a holistic agritech startrup that aims to improve
+                    the livelihood of small hold farmers across Indonesia at
+                    scale.
+                  </p>
+
                   <p className="text-base text-muted-foreground mb-4 font-bold">
                     Senior Engineer • September 2023 - Current
                   </p>
@@ -158,7 +164,7 @@ export default function WorkPage() {
               <CardTitle>CoLearn 👨‍🎓</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-8">
+              <p className="mb-8 text-sm italic text-muted-foreground">
                 CoLearn is an Ed-Tech startup based out of Indonesia that’s on a
                 mission to bring cohort-based high-quality online live classes
                 that are affordable to all Indonesian students in Grades 4-12.
@@ -202,7 +208,7 @@ export default function WorkPage() {
               <CardTitle>Wizr 💰</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-8">
+              <p className="mb-8 text-sm italic text-muted-foreground">
                 Wizr Wealth is a financial services company that helps you
                 manage your personal finance. Wizr helps you find experts who
                 can help you invest and grow your money. As the only member of
@@ -240,7 +246,7 @@ export default function WorkPage() {
               <CardTitle>Triveous Technologies</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-8">
+              <p className="mb-8 text-sm italic text-muted-foreground">
                 Triveous Technologies is a PaaS startup that deals with multiple
                 products and services. As a part of their team, my primary focus
                 was to improve and maintain their performance monitoring SDK for

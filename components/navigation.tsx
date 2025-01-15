@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export function Navigation() {
   return (
-    <header className="container sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm">
+    <header className="p-8 sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm">
       <div className="flex h-16 items-center justify-between">
         <Link href="/" className="text-xl font-bold">
           Sivan Chakravarthy

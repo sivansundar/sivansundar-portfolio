@@ -17,8 +17,8 @@ export function SpotifyWidget() {
     // In a real implementation, this would fetch from your Spotify API endpoint
     const mockData = {
       isPlaying: true,
-      title: "Black",
-      artist: "Pearl Jam",
+      title: "Hardwired",
+      artist: "Rascals Of The First Order",
       albumArt: "/placeholder.svg?height=64&width=64"
     }
     setData(mockData)
