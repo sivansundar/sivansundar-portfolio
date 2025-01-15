@@ -67,18 +67,18 @@ export default function AboutPage() {
               There is an inherent joy in building and creating things. That is
               exactly what drives me. Built products, managed teams and
               everything in between. I obsess with shipping fast.
-              I believe perfection is achieved through speed and not by being patient. "Ship -
-              feedback - iterate" and you'll be amazed to see where you are at.
+              I believe perfection is achieved through speed and not by waiting for the right time. "Ship -&gt;
+              feedback -&gt; iterate" and you'll be amazed to see where you are at.
               Over the years I have built native mobile apps of various
               capacity, ranging from fintech, ed-tech and agritech. I've also
               been building ecommerce solutions on the side out of pure
               curiosity. Love tinkering with any stack I get. RoR was one such
-              in the recent times.
+              in recent times.
             </p>
 
             <p className="mb-4">
               In a professional setting, I value honesty, the grit to learn and
-              the courage to say "I don't know". If you over communicate and
+              the courage to say <i>"I don't know"</i>. If you over communicate and
               discard biases, then you'd love working with me.
             </p>
 
@@ -94,7 +94,7 @@ export default function AboutPage() {
               >
                 <strong>Rascals of the First Order</strong>
               </Link>{" "}
-              - a heavy, hard rock/grunge rock band based out of Bengaluru,
+              - a heavy, hard/grunge rock band based out of Bengaluru,
               India. On the days I dont obsess with these, I travel as much as I
               can. Go on hikes, explore the local coffee and food scene, trying
               to learn a thing or two about the people I meet.
