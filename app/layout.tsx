@@ -5,6 +5,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { PHProvider } from "./providers/posthog";
 import dynamic from "next/dynamic";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const isProd = process.env.NODE_ENV === "production";
+
   return (
     <html lang="en" className="scroll-smooth">
       <PHProvider>
@@ -33,6 +36,7 @@ export default function RootLayout({
           <Navigation />
           <main className="flex-1">{children}</main>
           <Footer />
+          {isProd ? <Analytics /> : <></>}
         </body>
       </PHProvider>
     </html>
