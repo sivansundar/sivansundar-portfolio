@@ -83,7 +83,7 @@ export default function AboutPage() {
               amazed to see where you are at. Over the years I have built native
               mobile apps of various capacity, ranging from fintech, ed-tech and
               agritech. I've also been building ecommerce solutions on Shopify
-              out of pure curiosity and fun. Love tinkering with any stack I
+              out of pure curiosity. Love tinkering with any stack I
               get.
             </p>
 
