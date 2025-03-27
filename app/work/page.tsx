@@ -1,12 +1,28 @@
+import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Linkedin, LinkedinIcon, LucideLinkedin } from "lucide-react";
+import Link from "next/link";
 
 export default function WorkPage() {
   return (
     <div className="py-20 md:py-28">
       <div className="container px-4 md:px-6">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
+        <div className="flex justify-between items-center mb-8">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
           Work Experience
         </h1>
+        <Link
+              href="https://twitter.com/sivansundar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="default">
+              <LucideLinkedin/>
+                LinkedIn
+              </Button>
+            </Link>
+        
+        </div>
         <div className="grid gap-6 md:gap-8">
           <Card>
             <CardHeader>
@@ -42,6 +58,12 @@ export default function WorkPage() {
                     into high-impact product solutions. Interviewed retailers at
                     remote parts of Indonesia to understand how their commerce
                     funnels operates and how we can drive more value for them.
+                  </li>
+
+                  <li className="text-sm text-muted-foreground mb-4">
+                    Built an upsell and recommendation engine for our retailers.
+                    This boosted our e-commerce funnel conversion by 75%,
+                    driving in more users and sales.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
@@ -129,10 +151,10 @@ export default function WorkPage() {
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Achieved a significant reduction in app size from 29.9 MB to
-                    12.3 MB (58.8%) through code obfuscation, resource
+                    Achieved a significant reduction in app size from <strong>29.9 MB to
+                    12.3 MB (58.8%)</strong> through code obfuscation, resource
                     shrinking, and optimization techniques. Reduced update sizes
-                    from 25 MB to 7.8 MB (68.8%).
+                    from <strong>25 MB to 7.8 MB (68.8%)</strong>.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
@@ -241,7 +263,7 @@ export default function WorkPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Triveous Technologies</CardTitle>
+              <CardTitle>Triveous Technologies 💻</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-8 text-sm italic text-muted-foreground">
