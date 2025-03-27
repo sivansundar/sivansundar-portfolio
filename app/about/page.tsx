@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, LucideLinkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -40,6 +40,17 @@ export default function AboutPage() {
               <Button variant="outline">
                 <Github className="w-4 h-4 mr-2" />
                 Spotify
+              </Button>
+            </Link>
+
+            <Link
+              href="https://www.linkedin.com/in/sivan-chakravarthy-s/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="default">
+              <LucideLinkedin/>
+                LinkedIn
               </Button>
             </Link>
 

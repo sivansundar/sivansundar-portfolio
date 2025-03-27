@@ -12,7 +12,7 @@ export default function WorkPage() {
           Work Experience
         </h1>
         <Link
-              href="https://twitter.com/sivansundar"
+              href="https://www.linkedin.com/in/sivan-chakravarthy-s/"
               target="_blank"
               rel="noopener noreferrer"
             >
