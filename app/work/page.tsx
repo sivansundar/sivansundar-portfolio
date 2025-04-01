@@ -8,25 +8,32 @@ export default function WorkPage() {
     <div className="py-20 md:py-28">
       <div className="container px-4 md:px-6">
         <div className="flex justify-between items-center mb-8">
-        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-          Work Experience
-        </h1>
-        <Link
-              href="https://www.linkedin.com/in/sivan-chakravarthy-s/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="default">
-              <LucideLinkedin/>
-                LinkedIn
-              </Button>
-            </Link>
-        
+          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Work Experience
+          </h1>
+          <Link
+            href="https://www.linkedin.com/in/sivan-chakravarthy-s/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="default">
+              <LucideLinkedin />
+              LinkedIn
+            </Button>
+          </Link>
         </div>
         <div className="grid gap-6 md:gap-8">
           <Card>
             <CardHeader>
-              <CardTitle>Jiva Ag 🌽</CardTitle>
+              <CardTitle>
+                <Link
+                  href="https://www.jiva.ag/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Jiva Ag 🌽
+                </Link>
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-10">
@@ -151,10 +158,11 @@ export default function WorkPage() {
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Achieved a significant reduction in app size from <strong>29.9 MB to
-                    12.3 MB (58.8%)</strong> through code obfuscation, resource
-                    shrinking, and optimization techniques. Reduced update sizes
-                    from <strong>25 MB to 7.8 MB (68.8%)</strong>.
+                    Achieved a significant reduction in app size from{" "}
+                    <strong>29.9 MB to 12.3 MB (58.8%)</strong> through code
+                    obfuscation, resource shrinking, and optimization
+                    techniques. Reduced update sizes from{" "}
+                    <strong>25 MB to 7.8 MB (68.8%)</strong>.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
@@ -183,7 +191,15 @@ export default function WorkPage() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>CoLearn 👨‍🎓</CardTitle>
+              <CardTitle>
+                <Link
+                  href="https://colearn.id/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CoLearn 👨‍🎓
+                </Link>
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-8 text-sm italic text-muted-foreground">
@@ -225,7 +241,15 @@ export default function WorkPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Wizr 💰</CardTitle>
+              <CardTitle>
+                <Link
+                  href="https://www.getwizr.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Wizr 💰
+                </Link>
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-8 text-sm italic text-muted-foreground">
@@ -263,7 +287,15 @@ export default function WorkPage() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Triveous Technologies 💻</CardTitle>
+              <CardTitle>
+                <Link
+                  href="https://www.triveous.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Triveous Technologies 💻
+                </Link>
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-8 text-sm italic text-muted-foreground">

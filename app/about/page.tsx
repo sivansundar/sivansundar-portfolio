@@ -17,7 +17,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline">
+              <Button variant="default">
                 <Twitter className="w-4 h-4 mr-2" />
                 Twitter
               </Button>
@@ -27,7 +27,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline">
+              <Button variant="default">
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
               </Button>
@@ -37,7 +37,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline">
+              <Button variant="default">
                 <Github className="w-4 h-4 mr-2" />
                 Spotify
               </Button>
@@ -59,7 +59,7 @@ export default function AboutPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline">
+              <Button variant="default">
                 <Mail className="w-4 h-4 mr-2" />
                 Email
               </Button>
