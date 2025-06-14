@@ -49,7 +49,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
             >
               <Button variant="default">
-              <LucideLinkedin/>
+                <LucideLinkedin />
                 LinkedIn
               </Button>
             </Link>
@@ -74,11 +74,9 @@ export default function AboutPage() {
 
             <iframe
               className={"border-radius:12px"}
-              src="https://open.spotify.com/embed/artist/05FJ4y1jUydgN2NAnZrsbL?utm_source=generator"
+              src="https://open.spotify.com/embed/album/5p3iQOi2nasrF3lA2H0sx4?utm_source=generator&theme=0"
               width="100%"
               height="352"
-              frameBorder="0"
-              allowFullScreen={false}
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
@@ -94,8 +92,7 @@ export default function AboutPage() {
               amazed to see where you are at. Over the years I have built native
               mobile apps of various capacity, ranging from fintech, ed-tech and
               agritech. I've also been building ecommerce solutions on Shopify
-              out of pure curiosity. Love tinkering with any stack I
-              get.
+              out of pure curiosity. Love tinkering with any stack I get.
             </p>
 
             <p className="mb-4">
