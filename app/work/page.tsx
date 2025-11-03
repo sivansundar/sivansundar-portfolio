@@ -22,6 +22,54 @@ export default function WorkPage() {
             </Button>
           </Link>
         </div>
+        
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl mb-4">
+            Tools & Stack
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Android Development
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Engineering
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Jetpack Compose
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Kotlin
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Kotlin Multiplatform
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Shopify App Development
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              React.js
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Next.js
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              JavaScript
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Ruby on Rails
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              MySQL
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Postgres
+            </span>
+            <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium">
+              Node.js
+            </span>
+          </div>
+        </div>
+        
         <div className="grid gap-6 md:gap-8">
           <Card>
             <CardHeader>
@@ -48,142 +96,54 @@ export default function WorkPage() {
                     Senior Engineer • September 2023 - Current
                   </p>
                   <li className="text-sm text-muted-foreground mb-4">
-                    Drove critical technology decisions to optimize delivery
-                    timelines, enabling rapid feedback loops and iterative
-                    improvements across projects.
+                    Led a team of 10 Android Engineers across different pods and led the initiative of migrating our suite of apps from Java to Kotlin
+                    which improved our crash-free rates from 87% to 99.89%.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Partnered with technical leads and leadership teams to
-                    streamline workflows, resulting in enhanced team
-                    productivity and throughput.
+                    Led the initiative to integrate LLM-based coding assistants into mobile development workflows, enabling the Android engineering
+                    team to focus on solving real problems and deliver solutions faster. This improved story point velocity across teams by 60%.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Engaged with customer experience (CX) teams and design
-                    researchers to analyze user behavior, translating insights
-                    into high-impact product solutions. Interviewed retailers at
-                    remote parts of Indonesia to understand how their commerce
-                    funnels operates and how we can drive more value for them.
+                    Doubled our daily app usage and transactions metrics by leading the migration of our applications to Jetpack Compose, supported
+                    by a company-wide playbook that enhanced mobile development practices that included architectural guidelines, design system
+                    utilities and testing principles.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Built an upsell and recommendation engine for our retailers.
-                    This boosted our e-commerce funnel conversion by 75%,
-                    driving in more users and sales.
+                    Enhanced app deployment control and user experience by developing an Update Manager in Kotlin for targeted regional updates,
+                    ensuring robust mobile development standards through attention to detail. This increased our update adoption rate by 70%.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Developed a WhatsApp service on Rails that empowered users
-                    to sell crops, access feedmill pricing, and manage payments.
-                    This integration with Meta's WhatsApp Business Service and
-                    Landbot significantly improved the agricultural sales
-                    process for Jiva.
+                    Achieved 99.9% crash-free user sessions by actively monitoring Sentry, deploying best practices and encouraging ownership
+                    amongst the team.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Established a comprehensive playbook for migrating
-                    applications to Jetpack Compose, including architectural
-                    guidelines and design system utilities. Trained the mobile
-                    development team, enhancing their proficiency in the new
-                    architecture.
+                    Conducted field research in collaboration with the design research teams to understand the ground reality of our users and how
+                    effectively we can iterate on our solutions.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Built an in-house design system that is used by apps across
-                    Jiva's ecosystem, maintaining visual consistency and
-                    elevating user experience.
+                    Fostered collaboration among Android engineers by conducting weekly guild meetings and driving critical technology decisions,
+                    addressing cross-functional challenges that led to improved project outcomes.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Led the migration of collector and retailer apps to Jetpack
-                    Compose, resulting in a remarkable 70% increase in daily app
-                    usage and transaction volumes.
+                    Improved the existing agricultural sales processes for users by developing a WhatsApp service on Rails that integrated backend
+                    technologies with Meta's WhatsApp Business APIs, significantly enhancing user engagement.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Collaborated with the design team on a complete rewrite of
-                    the app's information architecture, simplifying navigation
-                    and improving user comprehension.
+                    Improved communication and professional growth among engineers by leading cross functional guild sessions and providing
+                    actionable feedback, strengthening communication skills and fostering collaboration across mobile and backend teams.
                   </li>
 
                   <li className="text-sm text-muted-foreground mb-4">
-                    Spearheaded the Android team, overseeing cross-functional
-                    challenges that had massive business impact. Conducted
-                    weekly guild meetings to create a brainstorming environment
-                    amongst Android engineers across pods which promoted
-                    collaboration and knowledge sharing.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Created an in-app marketing tool that enabled retailers to
-                    launch promotional campaigns across various platforms,
-                    driving sales significantly during H1 2024.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Setup design component guidelines and preview modes within
-                    the app using Showkase. This allowed QAs and PMs to have a
-                    closer understanding of how design components functioned
-                    across various devices.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Developed a unique Design Token generator for Compose that
-                    streamlined the integration of Figma design tokens into
-                    project themes, improving collaboration between design and
-                    development teams amidst design changes.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Actively mentored engineers by providing actionable feedback
-                    and insights, fostering their professional growth within the
-                    organization.
-                  </li>
-                </div>
-
-                <div>
-                  <p className="text-base text-muted-foreground mb-4 font-bold">
-                    Android Engineer • Apr 2022 - Aug 2023
-                  </p>
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Successfully migrated the entire codebase from Java to
-                    Kotlin, incorporating Coroutines for enhanced performance
-                    and scalability.
-                  </li>
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Designed and implemented a point-based reward system for
-                    collectors across three regions in Indonesia, driving
-                    engagement and retention.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Achieved a significant reduction in app size from{" "}
-                    <strong>29.9 MB to 12.3 MB (58.8%)</strong> through code
-                    obfuscation, resource shrinking, and optimization
-                    techniques. Reduced update sizes from{" "}
-                    <strong>25 MB to 7.8 MB (68.8%)</strong>.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Developed an Update Manager that enabled targeted forced
-                    updates in specific regions without requiring separate app
-                    releases, enhancing control over app deployment.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Proficient with production support when called upon. Led a
-                    response team during critical production outages which was
-                    responsible for building an alternative login system that
-                    would unblock users from authenticating with our products.
-                    As a result, this improved authentication error rates and
-                    aided cost cutting by a huge margin.
-                  </li>
-
-                  <li className="text-sm text-muted-foreground mb-4">
-                    Elevated app crash-free rates from 91% to an impressive
-                    99.89%, significantly enhancing user experience and
-                    reliability.
+                    Streamlined integration of design changes into mobile projects by developing a Design Token generator for Compose, improving
+                    collaboration between designers and mobile engineers, enabling seamless updates to project themes from Figma changes.
                   </li>
                 </div>
               </div>

@@ -84,10 +84,9 @@ export default function Home() {
                   <h3 className="text-lg font-bold">CoLearn</h3>
                   <p>
                     Built tools and solutions for an ed-tech platform serving
-                    the students of Indonesia. Handled live classes, course
-                    assortment, caching solutions for an in-app video player and
-                    the integration of a Machine Learning model that helps you
-                    with your STEM questions.
+                    the students of Indonesia. Handled course
+                    assortment, caching solutions for an in-app video player along 
+                    with a sample questions module that helps you in learning STEM concepts better.
                   </p>
                 </div>
               </div>
