@@ -4,14 +4,10 @@ import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import { PHProvider } from "./providers/posthog";
-import dynamic from "next/dynamic";
+import PostHogPageView from "./PostHogPageView";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
-
-const PostHogPageView = dynamic(() => import("./PostHogPageView"), {
-  ssr: false,
-});
 
 export const metadata: Metadata = {
   title: "Sivan Chakravarthy - Developer & Musician",
