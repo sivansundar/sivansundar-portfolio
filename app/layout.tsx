@@ -6,6 +6,7 @@ import { Footer } from "@/components/footer";
 import { PHProvider } from "./providers/posthog";
 import PostHogPageView from "./PostHogPageView";
 import { Analytics } from "@vercel/analytics/react";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,9 @@ export default function RootLayout({
         <body
           className={`${inter.className} bg-background text-foreground min-h-screen flex flex-col`}
         >
-          <PostHogPageView />
+          <Suspense fallback={null}>
+            <PostHogPageView />
+          </Suspense>
 
           <Navigation />
           <main className="flex-1">{children}</main>
